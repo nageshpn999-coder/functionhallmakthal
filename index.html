@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Function Hall Makthal</title>
+<meta name="description" content="మక్తల్ రాయచూర్ రోడ్‌లో రెండు ఫంక్షన్ హాల్స్: వెంకటేశ్వరా గార్డెన్ ఫంక్షన్ హాల్ & వట్టం రవి A/C కన్వెన్షన్ హాల్. పెళ్లి, రిసెప్షన్, నిశ్చితార్థం, పుట్టినరోజు వేడుకలకు బుకింగ్: 9848747536, 9440747536.">
+<meta property="og:title" content="Function Hall Makthal | వెంకటేశ్వరా గార్డెన్ & వట్టం రవి A/C కన్వెన్షన్ హాల్">
+<meta property="og:description" content="మక్తల్‌లో మీ శుభకార్యానికి రెండు వేదికలు. బుకింగ్: 9848747536">
+<meta property="og:url" content="https://functionhallmakthal.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ramabhadra&family=Noto+Sans+Telugu:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+[{"@context":"https://schema.org","@type":"EventVenue","name":"Venkateswara Garden Function Hall","alternateName":"వెంకటేశ్వరా గార్డెన్ ఫంక్షన్ హాల్","address":{"@type":"PostalAddress","streetAddress":"Near Tirumala ITI, Raichur Road","addressLocality":"Makthal","addressRegion":"Telangana","addressCountry":"IN"},"telephone":"+919848747536","url":"https://functionhallmakthal.com/#venkateswara"},
+{"@context":"https://schema.org","@type":"EventVenue","name":"Vattam Ravi A/C Convention Hall","alternateName":"వట్టం రవి A/C కన్వెన్షన్ హాల్","address":{"@type":"PostalAddress","streetAddress":"Near Venkateswara Lodge, Raichur Road","addressLocality":"Makthal","addressRegion":"Telangana","addressCountry":"IN"},"telephone":"+919848747536","url":"https://functionhallmakthal.com/#vattam-ravi"}]
+</script>
+<style>
+:root{
+  /* Wedding-pandal palette: banana-leaf green, marigold, kumkum red on a leaf-tinted white */
+  --leaf:#1d5a3b;
+  --leaf-deep:#123d28;
+  --marigold:#e9a21a;
+  --kumkum:#b3261e;
+  --ink:#1f2420;
+  --muted:#58625b;
+  --paper:#f6f8f4;
+  --card:#ffffff;
+  --line:#dde4dc;
+  --display:'Ramabhadra','Noto Sans Telugu',system-ui,sans-serif;
+  --body:'Noto Sans Telugu','Noto Sans',system-ui,sans-serif;
+  /* Layout: one column of stacked sections, two-up hall cards, sticky call bar on phones */
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.7}
+img{max-width:100%;display:block}
+a{color:var(--leaf)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--marigold);outline-offset:2px}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.3;text-wrap:balance;margin:0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+
+/* Thoranam: mango-leaf garland strip */
+.thoranam{height:22px;background:
+  radial-gradient(circle at 50% 0,var(--marigold) 5px,transparent 6px) 0 0/28px 22px repeat-x,
+  conic-gradient(from 135deg at 50% 0,var(--leaf) 0 90deg,transparent 0) 0 6px/28px 16px repeat-x,
+  var(--leaf-deep)}
+
+header.top{background:var(--leaf-deep);color:#fff;position:sticky;top:0;z-index:20}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px;max-width:1120px;margin:0 auto}
+.brand{font-family:var(--display);font-size:22px;color:#fff;text-decoration:none;line-height:1.2}
+.brand small{display:block;font-family:var(--body);font-size:12px;letter-spacing:.06em;color:#cfe0d4}
+nav.links{display:flex;gap:18px;overflow-x:auto}
+nav.links a{color:#e8f1ea;text-decoration:none;font-size:15px;white-space:nowrap}
+nav.links a:hover{color:var(--marigold)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:999px;font-weight:700;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:var(--body)}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-gold{background:var(--marigold);color:#2a1d00}
+.btn-gold:hover{background:#f3b43a}
+.btn-leaf{background:var(--leaf);color:#fff}
+.btn-leaf:hover{background:var(--leaf-deep)}
+.btn-wa{background:#1f9d55;color:#fff}
+.btn-line{background:transparent;color:var(--leaf);border:2px solid var(--leaf)}
+.btn-ghost{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.4)}
+@media (max-width:820px){nav.links{display:none}}
+
+/* Photo placeholders: replace each .ph with an <img> when photos arrive */
+.ph{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;
+  background:repeating-linear-gradient(135deg,#e7eee6 0 14px,#eef3ed 14px 28px);
+  border:2px dashed #b9c8bb;border-radius:14px;color:var(--muted);font-size:14px;padding:16px;min-height:150px}
+.ph svg{width:30px;height:30px;color:var(--leaf);opacity:.7}
+.ph b{color:var(--ink);font-weight:500;font-size:15px}
+
+/* Hero */
+.hero{background:linear-gradient(180deg,var(--leaf-deep),var(--leaf));color:#fff;padding:48px 0 56px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.hero .kicker{display:inline-block;background:rgba(233,162,26,.18);color:#ffd27a;border:1px solid rgba(233,162,26,.5);padding:4px 14px;border-radius:999px;font-size:14px;margin-bottom:16px}
+.hero h1{font-size:clamp(30px,5vw,48px)}
+.hero h1 span{color:var(--marigold)}
+.hero p{color:#dcebe0;max-width:34em;margin:16px 0 24px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero .ph{min-height:300px;background:repeating-linear-gradient(135deg,rgba(255,255,255,.08) 0 14px,rgba(255,255,255,.04) 14px 28px);border-color:rgba(255,255,255,.35);color:#cfe0d4}
+.hero .ph b{color:#fff}.hero .ph svg{color:var(--marigold)}
+@media (max-width:820px){.hero .wrap{grid-template-columns:1fr}.hero .ph{min-height:200px}}
+
+section{padding:56px 0}
+.sec-head{margin-bottom:28px}
+.sec-head h2{font-size:clamp(26px,3.6vw,34px);color:var(--leaf-deep)}
+.sec-head p{color:var(--muted);margin:6px 0 0;max-width:40em}
+
+/* Hall cards */
+.halls{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+@media (max-width:760px){.halls{grid-template-columns:1fr}}
+.hall-card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.hall-card .ph{border-radius:0;border-width:0 0 2px;min-height:210px}
+.hall-card .body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.tag{align-self:flex-start;font-size:13px;font-weight:700;color:var(--kumkum);background:#fbeceb;padding:2px 12px;border-radius:999px}
+.hall-card h3{font-size:24px;color:var(--leaf-deep)}
+.hall-card .en{font-size:14px;color:var(--muted);margin-top:-6px}
+.addr{display:flex;gap:8px;color:var(--ink);font-size:15px}
+.addr svg{width:18px;height:18px;flex:none;margin-top:5px;color:var(--kumkum)}
+.hall-card .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:8px}
+.hall-card .actions .btn{padding:9px 16px;font-size:15px}
+
+/* Hall detail */
+.detail{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.detail + .detail{border-top:0}
+.detail .head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:24px}
+.detail .head h2{font-size:clamp(24px,3.4vw,32px);color:var(--leaf-deep)}
+.detail .head p{margin:4px 0 0;color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.gallery .ph{min-height:140px}
+.gallery .wide{grid-column:span 2;grid-row:span 2;min-height:292px}
+@media (max-width:820px){.gallery{grid-template-columns:repeat(2,1fr)}.gallery .wide{min-height:220px}}
+
+/* Events */
+.events{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px}
+.event{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--marigold);border-radius:12px;padding:14px 16px}
+.event b{display:block;font-size:18px;color:var(--leaf-deep);font-weight:700}
+.event span{font-size:13px;color:var(--muted)}
+
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
+@media (max-width:760px){.why{grid-template-columns:1fr}}
+.why div{padding-top:14px;border-top:3px solid var(--leaf)}
+.why h3{font-size:20px;color:var(--leaf-deep)}
+.why p{margin:6px 0 0;color:var(--muted);font-size:15px}
+
+/* Booking */
+.booking{background:var(--leaf-deep);color:#fff}
+.booking .sec-head h2{color:#fff}.booking .sec-head p{color:#cfe0d4}
+.book-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:28px;align-items:start}
+@media (max-width:860px){.book-grid{grid-template-columns:1fr}}
+form.enq{background:var(--card);color:var(--ink);border-radius:18px;padding:24px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+form.enq .full{grid-column:1/-1}
+@media (max-width:560px){form.enq{grid-template-columns:1fr}}
+label{display:block;font-size:14px;font-weight:500;margin-bottom:4px;color:var(--muted)}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:10px 12px;border:1px solid #c9d3c9;border-radius:10px;background:#fff;color:var(--ink)}
+textarea{min-height:80px;resize:vertical}
+.form-note{font-size:13px;color:var(--muted);margin:0}
+.form-err{color:var(--kumkum);font-size:14px;margin:0;min-height:1em}
+.book-side{display:flex;flex-direction:column;gap:16px}
+.call-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:16px;padding:20px}
+.call-card h3{font-size:20px;color:var(--marigold)}
+.call-card a.num{display:block;font-size:26px;font-weight:700;color:#fff;text-decoration:none;font-variant-numeric:tabular-nums;letter-spacing:.02em;margin-top:6px}
+.call-card p{margin:6px 0 0;color:#cfe0d4;font-size:14px}
+
+/* Contact */
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media (max-width:860px){.contact-grid{grid-template-columns:1fr}}
+.c-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.c-card h3{font-size:20px;color:var(--leaf-deep);margin-bottom:8px}
+.c-card p{margin:0 0 6px}
+.c-card .muted{color:var(--muted);font-size:15px}
+.owner{border-top:5px solid var(--kumkum);display:flex;gap:18px;align-items:flex-start}
+.owner-photo{width:110px;height:138px;object-fit:cover;object-position:top;border-radius:12px;border:3px solid var(--marigold);background:#fff;flex:none}
+@media (max-width:860px) and (min-width:400px){.owner-photo{width:130px;height:162px}}
+.owner .name{font-size:22px;font-family:var(--display);color:var(--ink)}
+.phones a{font-variant-numeric:tabular-nums;font-weight:700;font-size:19px;text-decoration:none}
+
+footer{background:#0d2a1c;color:#b9cdbf;font-size:14px;padding:28px 0 90px}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+footer a{color:#e8f1ea}
+@media (min-width:821px){footer{padding-bottom:28px}}
+
+/* Phone call bar */
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:30;display:none;gap:10px;padding:10px 12px;background:#fff;border-top:1px solid var(--line);box-shadow:0 -4px 16px rgba(0,0,0,.08)}
+.callbar .btn{flex:1;justify-content:center}
+@media (max-width:820px){.callbar{display:flex}}
+
+/* Real photos */
+.shot{display:block;width:100%;height:100%;object-fit:cover}
+.hero-shot{height:340px;border-radius:16px;border:3px solid var(--marigold);box-shadow:0 12px 32px rgba(0,0,0,.3)}
+.card-shot{height:220px}
+.gallery{grid-template-columns:repeat(2,1fr);grid-auto-rows:auto}
+.gallery .shot-wrap{aspect-ratio:3/2}
+@media (max-width:560px){.gallery{gap:8px}.shot-wrap figcaption{font-size:11px;padding:2px 8px;left:6px;bottom:6px}}
+.gallery .ph,.gallery .wide{min-height:0}
+.gallery .wide{grid-row:span 2}
+.shot-wrap{margin:0;position:relative;border-radius:14px;overflow:hidden;background:#e7eee6}
+.shot-wrap figcaption{position:absolute;left:10px;bottom:10px;background:rgba(18,61,40,.85);color:#fff;font-size:13px;padding:3px 12px;border-radius:999px}
+@media (max-width:820px){.hero-shot{height:220px}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.2-.2-.5-.3z"/></symbol>
+</svg>
+
+<div class="thoranam" aria-hidden="true"></div>
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="#top">ఫంక్షన్ హాల్స్ మక్తల్<small>FUNCTIONHALLMAKTHAL.COM</small></a>
+    <nav class="links" aria-label="ముఖ్య మెనూ">
+      <a href="#halls">హాల్స్</a>
+      <a href="#venkateswara">వెంకటేశ్వరా గార్డెన్</a>
+      <a href="#vattam-ravi">వట్టం రవి A/C హాల్</a>
+      <a href="#events">వేడుకలు</a>
+      <a href="#contact">సంప్రదించండి</a>
+    </nav>
+    <a class="btn btn-gold" href="tel:+919848747536"><svg><use href="#i-phone"/></svg>కాల్ చేయండి</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="kicker">రాయచూర్ రోడ్, మక్తల్ · నారాయణపేట జిల్లా</span>
+        <h1>మీ శుభకార్యానికి <span>రెండు వేదికలు</span>, ఒకే చోట బుకింగ్</h1>
+        <p>వెంకటేశ్వరా గార్డెన్ ఫంక్షన్ హాల్ మరియు వట్టం రవి A/C కన్వెన్షన్ హాల్. పెళ్లి, రిసెప్షన్, నిశ్చితార్థం, పుట్టినరోజు, సభలు ఏ వేడుకైనా మీ అతిథుల సంఖ్యకు తగిన హాల్ ఎంచుకోండి. తేదీ ఖాళీగా ఉందో లేదో ఇప్పుడే ఫోన్ లేదా WhatsApp చేసి తెలుసుకోండి.</p>
+        <div class="ctas">
+          <a class="btn btn-gold" href="tel:+919848747536"><svg><use href="#i-phone"/></svg>98487 47536</a>
+          <a class="btn btn-wa" href="https://wa.me/919848747536" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+        </div>
+      </div>
+      <img class="shot hero-shot" src="img/hero-stage.jpg" alt="పూలు, బంగారు స్తంభాలతో అలంకరించిన పెళ్లి స్టేజ్" width="1400" height="651">
+    </div>
+  </section>
+
+  <section id="halls">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>మా రెండు ఫంక్షన్ హాల్స్</h2>
+        <p>రెండూ మక్తల్ రాయచూర్ రోడ్ మీదే ఉన్నాయి. బస్టాండ్ నుంచి, చుట్టుపక్కల గ్రామాల నుంచి అతిథులు సులభంగా చేరుకోవచ్చు.</p>
+      </div>
+      <div class="halls">
+        <article class="hall-card">
+          <img class="shot card-shot" src="img/venkateswara-card.jpg" alt="వెంకటేశ్వరా గార్డెన్ ఫంక్షన్ హాల్ పెళ్లి మండపం" width="900" height="468" loading="lazy">
+          <div class="body">
+            <span class="tag">గార్డెన్ వేదిక</span>
+            <h3>వెంకటేశ్వరా గార్డెన్ ఫంక్షన్ హాల్</h3>
+            <div class="en">Venkateswara Garden Function Hall</div>
+            <div class="addr"><svg><use href="#i-pin"/></svg><span>తిరుమల ఐ.టి.ఐ దగ్గర, రాయచూర్ రోడ్, మక్తల్</span></div>
+            <div class="actions">
+              <a class="btn btn-leaf" href="#venkateswara">వివరాలు & ఫోటోలు</a>
+              <a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&amp;query=Venkateswara+Garden+Function+Hall+Raichur+Road+Makthal" target="_blank" rel="noopener">మ్యాప్</a>
+            </div>
+          </div>
+        </article>
+        <article class="hall-card">
+          <img class="shot card-shot" src="img/vattam-card.jpg" alt="వట్టం రవి A/C కన్వెన్షన్ హాల్ ప్రవేశ ద్వారం, పార్కింగ్" width="900" height="603" loading="lazy">
+          <div class="body">
+            <span class="tag">A/C కన్వెన్షన్ హాల్</span>
+            <h3>వట్టం రవి A/C కన్వెన్షన్ హాల్</h3>
+            <div class="en">Vattam Ravi A/C Convention Hall</div>
+            <div class="addr"><svg><use href="#i-pin"/></svg><span>వేంకటేశ్వర లాడ్జ్ దగ్గర, రాయచూర్ రోడ్, మక్తల్</span></div>
+            <div class="actions">
+              <a class="btn btn-leaf" href="#vattam-ravi">వివరాలు & ఫోటోలు</a>
+              <a class="btn btn-line" href="https://www.google.com/maps/search/?api=1&amp;query=Vattam+Ravi+Convention+Hall+Raichur+Road+Makthal" target="_blank" rel="noopener">మ్యాప్</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail" id="venkateswara">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <h2>వెంకటేశ్వరా గార్డెన్ ఫంక్షన్ హాల్</h2>
+          <p>తిరుమల ఐ.టి.ఐ దగ్గర, రాయచూర్ రోడ్, మక్తల్</p>
+        </div>
+        <a class="btn btn-wa" href="https://wa.me/919848747536?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%A4%E0%B1%87%2C%20%E0%B0%B5%E0%B1%86%E0%B0%82%E0%B0%95%E0%B0%9F%E0%B1%87%E0%B0%B6%E0%B1%8D%E0%B0%B5%E0%B0%B0%E0%B0%BE%20%E0%B0%97%E0%B0%BE%E0%B0%B0%E0%B1%8D%E0%B0%A1%E0%B1%86%E0%B0%A8%E0%B1%8D%20%E0%B0%AB%E0%B0%82%E0%B0%95%E0%B1%8D%E0%B0%B7%E0%B0%A8%E0%B1%8D%20%E0%B0%B9%E0%B0%BE%E0%B0%B2%E0%B1%8D%20%E0%B0%AC%E0%B1%81%E0%B0%95%E0%B0%BF%E0%B0%82%E0%B0%97%E0%B1%8D%20%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%20%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%B8%E0%B1%81%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%BF." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp లో అడగండి</a>
+      </div>
+      <div class="gallery">
+        <figure class="shot-wrap"><img class="shot" src="img/venkateswara-stage.jpg" alt="వెంకటేశ్వరా గార్డెన్ స్టేజ్ డెకరేషన్" width="1200" height="800" loading="lazy"><figcaption>స్టేజ్ డెకరేషన్</figcaption></figure>
+        <figure class="shot-wrap"><img class="shot" src="img/venkateswara-hall.jpg" alt="వెంకటేశ్వరా గార్డెన్ ఫంక్షన్ హాల్ లోపల కుర్చీలు, స్టేజ్" width="1200" height="800" loading="lazy"><figcaption>హాల్ లోపల</figcaption></figure>
+        <figure class="shot-wrap"><img class="shot" src="img/venkateswara-hall2.jpg" alt="వెంకటేశ్వరా గార్డెన్ హాల్‌లో కుర్చీల వరుసలు, అలంకరించిన స్టేజ్" width="1200" height="800" loading="lazy"><figcaption>అతిథుల సీటింగ్</figcaption></figure>
+        <figure class="shot-wrap"><img class="shot" src="img/venkateswara-seating.jpg" alt="వెంకటేశ్వరా గార్డెన్ సోఫాలు, రెడ్ కార్పెట్ దారి" width="1200" height="800" loading="lazy"><figcaption>సోఫాలు & రెడ్ కార్పెట్</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="detail" id="vattam-ravi">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <h2>వట్టం రవి A/C కన్వెన్షన్ హాల్</h2>
+          <p>వేంకటేశ్వర లాడ్జ్ దగ్గర, రాయచూర్ రోడ్, మక్తల్ · <strong style="color:var(--kumkum)">పూర్తి A/C హాల్</strong>. ఎండాకాలంలోనూ అతిథులకు చల్లగా, సౌకర్యంగా ఉంటుంది.</p>
+        </div>
+        <a class="btn btn-wa" href="https://wa.me/919848747536?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%A4%E0%B1%87%2C%20%E0%B0%B5%E0%B0%9F%E0%B1%8D%E0%B0%9F%E0%B0%82%20%E0%B0%B0%E0%B0%B5%E0%B0%BF%20A/C%20%E0%B0%95%E0%B0%A8%E0%B1%8D%E0%B0%B5%E0%B1%86%E0%B0%A8%E0%B1%8D%E0%B0%B7%E0%B0%A8%E0%B1%8D%20%E0%B0%B9%E0%B0%BE%E0%B0%B2%E0%B1%8D%20%E0%B0%AC%E0%B1%81%E0%B0%95%E0%B0%BF%E0%B0%82%E0%B0%97%E0%B1%8D%20%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%20%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%B8%E0%B1%81%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%BF." target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp లో అడగండి</a>
+      </div>
+      <div class="gallery">
+        <figure class="shot-wrap"><img class="shot" src="img/vattam-gate.jpg" alt="వట్టం రవి A/C కన్వెన్షన్ హాల్ ప్రవేశ ద్వారం" width="1200" height="800" loading="lazy"><figcaption>ప్రవేశ ద్వారం</figcaption></figure>
+        <figure class="shot-wrap"><img class="shot" src="img/vattam-stage.jpg" alt="వట్టం రవి A/C కన్వెన్షన్ హాల్ స్టేజ్ డెకరేషన్" width="1200" height="800" loading="lazy"><figcaption>స్టేజ్ డెకరేషన్</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>ఏ వేడుకలకు బుక్ చేసుకోవచ్చు</h2>
+      </div>
+      <div class="events">
+        <div class="event"><b>వివాహం</b><span>Wedding</span></div>
+        <div class="event"><b>రిసెప్షన్</b><span>Reception</span></div>
+        <div class="event"><b>నిశ్చితార్థం</b><span>Engagement</span></div>
+        <div class="event"><b>పుట్టినరోజు</b><span>Birthday</span></div>
+        <div class="event"><b>ఓణీల ఫంక్షన్ / బారసాల</b><span>Family functions</span></div>
+        <div class="event"><b>సభలు & మీటింగ్స్</b><span>Meetings & events</span></div>
+      </div>
+      <div class="why">
+        <div><h3>గార్డెన్ లేదా A/C హాల్</h3><p>ఆరుబయట గార్డెన్ వేడుక కావాలంటే వెంకటేశ్వరా గార్డెన్, చల్లని A/C హాల్ కావాలంటే వట్టం రవి కన్వెన్షన్. రెండింటికీ ఒకే నంబర్.</p></div>
+        <div><h3>రాయచూర్ రోడ్ మీదే</h3><p>మక్తల్ పట్టణంలో అందరికీ తెలిసిన మెయిన్ రోడ్. బయటి ఊళ్ల అతిథులకు దారి వెతకాల్సిన పని లేదు.</p></div>
+        <div><h3>నేరుగా ఓనర్‌తో మాట్లాడండి</h3><p>మధ్యవర్తులు లేరు. రేట్లు, తేదీలు, ఏర్పాట్ల గురించి నేరుగా ఓనర్‌తోనే మాట్లాడొచ్చు.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="sec-head"><h2>సంప్రదించండి</h2></div>
+      <div class="contact-grid">
+        <div class="c-card owner">
+          <img class="owner-photo" src="img/owner.jpg" alt="వట్టం రతన్ కుమార్ గుప్తా" width="480" height="640" loading="lazy">
+          <div>
+            <h3>ఓనర్</h3>
+            <p class="name">వట్టం రతన్ కుమార్ గుప్తా</p>
+            <p class="muted">B.Sc (Computers)</p>
+            <p class="phones"><a href="tel:+919848747536">98487 47536</a><br><a href="tel:+919440747536">94407 47536</a></p>
+            <a class="btn btn-wa" href="https://wa.me/919848747536" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+          </div>
+        </div>
+        <div class="c-card">
+          <h3>వెంకటేశ్వరా గార్డెన్ ఫంక్షన్ హాల్</h3>
+          <p>తిరుమల ఐ.టి.ఐ దగ్గర, రాయచూర్ రోడ్,<br>మక్తల్, నారాయణపేట జిల్లా, తెలంగాణ</p>
+          <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Venkateswara+Garden+Function+Hall+Raichur+Road+Makthal" target="_blank" rel="noopener">Google Maps లో చూడండి</a></p>
+        </div>
+        <div class="c-card">
+          <h3>వట్టం రవి A/C కన్వెన్షన్ హాల్</h3>
+          <p>వేంకటేశ్వర లాడ్జ్ దగ్గర, రాయచూర్ రోడ్,<br>మక్తల్, నారాయణపేట జిల్లా, తెలంగాణ</p>
+          <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Vattam+Ravi+Convention+Hall+Raichur+Road+Makthal" target="_blank" rel="noopener">Google Maps లో చూడండి</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 functionhallmakthal.com · వెంకటేశ్వరా గార్డెన్ ఫంక్షన్ హాల్ & వట్టం రవి A/C కన్వెన్షన్ హాల్, మక్తల్</span>
+    <span>Website: <a href="https://onlineland.in" target="_blank" rel="noopener">OnlineLand</a> · 99597 31120</span>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn btn-leaf" href="tel:+919848747536"><svg><use href="#i-phone"/></svg>కాల్</a>
+  <a class="btn btn-wa" href="https://wa.me/919848747536" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>WhatsApp</a>
+</div>
+
+</body>
+</html>
